@@ -27,5 +27,5 @@ defaults/
 templates/
 locale/
 *.osm
-executables/
+# executables/
 maps4fs.egg-info/
