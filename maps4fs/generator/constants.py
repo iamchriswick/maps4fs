@@ -42,10 +42,12 @@ class Paths:
 
     # ---- Executable names and remote URLs --------------------------------
     I3D_CONVERTER_NAME = "i3dConverter.exe"
-    I3D_CONVERTER_REMOTE_URL = "http://storage.atlasfs.xyz/mfsmedia/i3dConverter.exe"
+    I3D_CONVERTER_REMOTE_URL = (
+        "https://github.com/iamchriswick/maps4fs/raw/refs/heads/dev/executables/i3dConverter.exe"
+    )
     TEXCONV_NAME = "texconv.exe"
     TEXCONV_REMOTE_URL = (
-        "https://github.com/microsoft/DirectXTex/releases/download/oct2025/texconv.exe"
+        "https://github.com/iamchriswick/maps4fs/raw/refs/heads/dev/executables/texconv.exe"
     )
 
     # ---- Map template structure -----------------------------------------
