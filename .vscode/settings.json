@@ -36,5 +36,8 @@
         "tests/inference_cache"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "python.useEnvironmentsExtension": true,
+    "python.createEnvironment.contentButton": "show",
+    "python.terminal.activateEnvInCurrentTerminal": true
 }

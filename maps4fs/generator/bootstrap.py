@@ -191,7 +191,7 @@ class Bootstrap:
         try:
             with tempfile.TemporaryDirectory() as temp_dir:
                 _logger.info("Downloading maps4fsdata repository as ZIP archive...")
-                zip_url = "https://github.com/iwatkot/maps4fsdata/archive/refs/heads/main.zip"
+                zip_url = "https://github.com/iamchriswick/maps4fsdata/archive/refs/heads/main.zip"
                 zip_data = Bootstrap._fetch(zip_url)
 
                 _logger.info("Extracting repository archive...")
@@ -266,7 +266,9 @@ class Bootstrap:
         try:
             with tempfile.TemporaryDirectory() as temp_dir:
                 _logger.info("Downloading maps4fslocale repository as ZIP archive...")
-                zip_url = "https://github.com/iwatkot/maps4fslocale/archive/refs/heads/main.zip"
+                zip_url = (
+                    "https://github.com/iamchriswick/maps4fslocale/archive/refs/heads/main.zip"
+                )
                 zip_data = Bootstrap._fetch(zip_url)
 
                 _logger.info("Extracting locale archive...")
